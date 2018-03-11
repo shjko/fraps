@@ -2,7 +2,7 @@ FROM centos:7
 
 ARG FRP_VERSION=0.16.0
 
-RUN yum update \
+RUN yum -y update \
 	&& yum -y install wget
 	
 WORKDIR /tmp
