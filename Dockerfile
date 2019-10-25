@@ -19,4 +19,3 @@ EXPOSE 80 443 7000 7500
 
 WORKDIR /var/frp
 ENTRYPOINT ./frps -c ./conf/frps.ini
-	
